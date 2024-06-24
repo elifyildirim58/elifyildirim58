@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./resimler/zendayaP/favicon.ico" type="image/x-icon">
+    <title>STİLİST YZ</title>
+    <meta name="description" content="Stil danışmalığı yapan yapay zeka web sitesidir.">
+    <meta name="keywords" content="stil,yapay zeka,yz,AI,web,site,öneri,style,stylist,stilist">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <container class="container"> 
+    <article ><img id="fotoart" src="./resimler/foto1.png" alt="article"> </article>
+    <aside id="aside">
+        <nav class="navbar">
+            <div class="hamburger">
+                <button class="dropbtn" onclick="toggleMenu()"><i class="fa fa-bars"></i>MENÜ
+                </button>
+                <div id="dropdown-content" class="dropdown-content">
+                    <a href="#"><i class="fa-solid fa-venus"></i>KADIN<i class="fa fa-caret-down"></i></a>
+                    <a href="#"><i class="fa-solid fa-mars"></i>ERKEK<i class="fa fa-caret-down"></i></a>
+                    <a href="#"><i class="fa-solid fa-children"></i>ÇOCUK</a>
+                    <a href="#"><i class="fa-solid fa-pencil"></i>ÖNERİ</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn"><i class="fa-solid fa-venus"></i>KADIN
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                    <div class="dropdown-content">
+                        <a href="./guncelmoda.html">Güncel Moda</a>
+                        <div class="submenu">
+                            <a href="#" class="submenu-btn">Moda İkonları</a>
+                            <div class="submenu-content">
+                                <a href="./bella.html">Bella Hadid</a>
+                                <a href="./blake.html">Blake Lively</a>
+                                <a href="./hailey.html">Hailey Bieber</a>
+                                <a href="./zendaya.html">Zendaya</a>
+                            </div>
+                        </div>
+                        <div class="submenu">
+                            <a href="#" class="submenu-btn">Kendi Tarzım</a>
+                            <div class="submenu-content">
+                                <a href="./wGüncelModaEnCokTiklananlar.html">Güncel Moda En Çok Tıklananlar</a>
+                                <a href="./bellaEnCokTiklananlar.html">Bella Hadid En Çok Tıklananlar</a>
+                                <a href="./blakeEnCokTiklananlar.html">Blake Lively En Çok Tıklananlar</a>
+                                <a href="./haileyEnCokTiklananlar.html">Hailey Bieber En Çok Tıklananlar</a>
+                                <a href="./zendayaEnCokTiklananlar.html">Zendaya En Çok Tıklananlar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="dropdown">
+                <button class="dropbtn"><i class="fa-solid fa-mars"></i>ERKEK
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="./guncelmoda1.html">Güncel Moda</a>
+                    <div class="submenu">
+                        <a href="#" class="submenu-btn">Moda İkonları</a>
+                        <div class="submenu-content">
+                            <a href="./eminem.html">Eminem</a>
+                            <a href="./songkang.html">Song Kang</a>
+                            <a href="./tom.html">Tom Cruise</a>
+                        </div>
+                    </div>
+                    <div class="submenu">
+                        <a href="#" class="submenu-btn">Kendi Tarzım</a>
+                        <div class="submenu-content">
+                            <a href="./mGüncelModaEnCokTiklananlar.html">Güncel Moda En Çok Tıklananlar</a>
+                            <a href="./eminemEnCokTiklananlar.html">Eminem En Çok Tıklananlar</a>
+                            <a href="./songEnCokTiklananlar.html">Song Kang En Çok Tıklananlar</a>
+                            <a href="./tomEnCokTiklananlar.html">Tom Cruise En Çok Tıklananlar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="dropdown">
+                <button class="dropbtn"><i class="fa-solid fa-children"></i>ÇOCUK
+            </div>
+        
+            <div class="dropdown">
+                <button class="dropbtn"><i class="fa-solid fa-pencil"></i>ÖNERİ
+            </div>
+        </nav>
+        <img id="fotoas" src="./resimler/foto2.png" alt="aside">
+    
+    </aside>
+</container>
+        <script>
+            var submenu = document.querySelector('.submenu');
+            var submenuContent = document.querySelector('.submenu-content');
+
+            submenu.addEventListener('mouseenter', function() {
+                submenuContent.style.display = 'block';
+            });
+
+            submenu.addEventListener('mouseleave', function() {
+                submenuContent.style.display = 'none';
+            });
+
+            function toggleMenu() {
+                var hamburger = document.querySelector('.hamburger');
+                hamburger.classList.toggle('active');
+            }
+        </script>
+    </body>
+</html>
+

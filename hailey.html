@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./resimler/zendayaP/favicon.ico" type="image/x-icon">
+    <title>STİLİST YZ</title>
+    <meta name="description" content="Stil danışmalığı yapan yapay zeka web sitesidir.">
+    <meta name="keywords" content="stil,yapay zeka,yz,AI,web,site,öneri,style,stylist,stilist">
+    <link rel="stylesheet" href="./guncelmoda.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <div class="navbar">
+        <label><input type="checkbox" id="pantolonCheck">Pantolon</label>
+        <label><input type="checkbox" id="etekCheck">Etek</label>
+        <label><input type="checkbox" id="gomlekCheck">Gömlek</label>
+        <label><input type="checkbox" id="kazakCheck">Kazak</label>
+        <label><input type="checkbox" id="ayakkabiCheck">Ayakkabı</label>
+        <label><input type="checkbox" id="cantaCheck">Çanta</label>
+    </div>
+   
+    <div id="pantolonCheckGaleri" class="galeri">
+        <img class="pantolon trackable" data-id="1" data-category="haileyp1" src="./resimler/haileyp/p1.png" alt="Pantolon 1">
+        <img class="pantolon trackable" data-id="2" data-category="haileyp2" src="./resimler/haileyp/p2.png" alt="Pantolon 2">
+        <img class="pantolon trackable" data-id="3" data-category="haileyp3" src="./resimler/haileyp/p3.png" alt="Pantolon 3">
+        <img class="pantolon trackable" data-id="4" data-category="haileyp4" src="./resimler/haileyp/p4.png" alt="Pantolon 4">
+    </div>
+    <div id="cantaCheckGaleri" class="galeri">
+        <img class="canta trackable" data-id="1" data-category="haileyc1" src="./resimler/haileyc/c1.png" alt="Canta 1">
+        <img class="canta trackable" data-id="2" data-category="haileyc2" src="./resimler/haileyc/c2.png" alt="Canta 2">
+        <img class="canta trackable" data-id="3" data-category="haileyc3" src="./resimler/haileyc/c3.png" alt="Canta 3">
+        <img class="canta trackable" data-id="4" data-category="haileyc4" src="./resimler/haileyc/c4.png" alt="Canta 4">
+    </div>
+        
+    <div id="etekCheckGaleri" class="galeri">
+        <img class="etek trackable" data-id="1" data-category="haileye1" src="./resimler/haileye/e1.png" alt="Etek 1">
+        <img class="etek trackable" data-id="2" data-category="haileye2" src="./resimler/haileye/e2.png" alt="Etek 2">
+        <img class="etek trackable" data-id="3" data-category="haileye3" src="./resimler/haileye/e3.png" alt="Etek 3">
+        <img class="etek trackable" data-id="4" data-category="haileye4" src="./resimler/haileye/e4.png" alt="Etek 4">
+    </div>
+    <div id="gomlekCheckGaleri" class="galeri">
+        <img class="gomlek trackable" data-id="1" data-category="haileyg1" src="./resimler/haileyg/g1.png" alt="Gomlek 1">
+        <img class="gomlek trackable" data-id="2" data-category="haileyg2" src="./resimler/haileyg/g2.png" alt="Gomlek 2">
+        <img class="gomlek trackable" data-id="3" data-category="haileyg3" src="./resimler/haileyg/g3.png" alt="Gomlek 3">
+        <img class="gomlek trackable" data-id="4" data-category="haileyg4" src="./resimler/haileyg/g4.png" alt="Gomlek 4">
+    </div>
+    <div id="ayakkabiCheckGaleri" class="galeri">
+        <img class="ayakkabi trackable" data-id="1" data-category="haileya1" src="./resimler/haileya/a1.png" alt="Ayakkabi 1">
+        <img class="ayakkabi trackable" data-id="2" data-category="haileya2" src="./resimler/haileya/a2.png" alt="Ayakkabi 2">
+        <img class="ayakkabi trackable" data-id="3" data-category="haileya3" src="./resimler/haileya/a3.png" alt="Ayakkabi 3">
+        <img class="ayakkabi trackable" data-id="4" data-category="haileya4" src="./resimler/haileya/a4.png"alt="Ayakkabi 4">
+    </div>
+    <div id="kazakCheckGaleri" class="galeri">
+        <img class="kazak trackable" data-id="1" data-category="haileyk1" src="./resimler/haileyk/k1.png" alt="Kazak 1">
+        <img class="kazak trackable" data-id="2" data-category="haileyk2" src="./resimler/haileyk/k2.png" alt="Kazak 2">
+        <img class="kazak trackable" data-id="3" data-category="haileyk3" src="./resimler/haileyk/k3.png" alt="Kazak 3">
+        <img class="kazak trackable" data-id="4" data-category="haileyk4" src="./resimler/haileyk/k4.png" alt="Kazak 4">
+    </div>
+        
+    <div id="lightbox" class="lightbox" style="display: none;">
+        <span class="close">&times;</span>
+        <img class="lightbox-content" id="lightboxImg">
+    </div>
+
+    <script src="./hailey.js"></script>
+</body>
+</html>

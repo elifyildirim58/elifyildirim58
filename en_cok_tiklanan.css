@@ -1,0 +1,87 @@
+body {
+    background-color: #C7C8CC;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 15px;
+    background-color: #686D76;
+    font-size: 20px;
+}
+
+.navbar label {
+    cursor: pointer;
+}
+
+.navbar label:hover {
+    color: white;
+}
+
+.galeri {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 10px;
+    justify-items: center;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.galeri img {
+    border: 2px solid #686D76;
+    border-radius: 10px;
+    width: 100%;
+    height: 200px; 
+    object-fit: contain; 
+    cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+    .galeri {
+        grid-template-columns: repeat(2, 1fr); /* Daha küçük ekranlarda 2 sütuna geçiş */
+    }
+}
+
+@media (max-width: 768px) {
+    .galeri {
+        grid-template-columns: 1fr; /* Daha küçük ekranlarda 1 sütuna geçiş */
+    }
+}
+
+.lightbox {
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.lightbox-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.close {
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover, .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}

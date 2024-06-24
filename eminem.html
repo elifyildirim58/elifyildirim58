@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./resimler/zendayaP/favicon.ico" type="image/x-icon">
+    <title>STİLİST YZ</title>
+    <meta name="description" content="Stil danışmalığı yapan yapay zeka web sitesidir.">
+    <meta name="keywords" content="stil,yapay zeka,yz,AI,web,site,öneri,style,stylist,stilist">
+    <link rel="stylesheet" href="./guncelmoda.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <div class="navbar">
+        <label><input type="checkbox" id="pantolonCheck">Pantolon</label>
+        <label><input type="checkbox" id="gomlekCheck">Gömlek</label>
+        <label><input type="checkbox" id="kazakCheck">Kazak</label>
+        <label><input type="checkbox" id="ayakkabiCheck">Ayakkabı</label>
+    </div>
+    
+    <div id="kazakCheckGaleri" class="galeri">
+        <img class="kazak trackable" data-id="eminemkazak1" src="./resimler/eminemK/k1.png" alt="Kazak 1">
+        <img class="kazak trackable" data-id="eminemkazak2" src="./resimler/eminemK/k2.png" alt="Kazak 2">
+        <img class="kazak trackable" data-id="eminemkazak3" src="./resimler/eminemK/k3.png" alt="Kazak 3">
+        <img class="kazak trackable" data-id="eminemkazak4" src="./resimler/eminemK/k4.png" alt="Kazak 4">
+    </div>
+  
+    <div id="pantolonCheckGaleri" class="galeri">
+        <img class="pantolon trackable" data-id="eminempantolon1" src="./resimler/eminemP/p1.png" alt="Pantolon 1">
+        <img class="pantolon trackable" data-id="eminempantolon2" src="./resimler/eminemP/p2.png" alt="Pantolon 2">
+        <img class="pantolon trackable" data-id="eminempantolon3" src="./resimler/eminemP/p3.png" alt="Pantolon 3">
+        <img class="pantolon trackable" data-id="eminempantolon4" src="./resimler/eminemP/p4.png" alt="Pantolon 4">
+    </div>
+
+    <div id="ayakkabiCheckGaleri" class="galeri">
+        <img class="ayakkabi trackable" data-id="eminemayakkabi1" src="./resimler/eminemA/a1.png" alt="Ayakkabi 1">
+        <img class="ayakkabi trackable" data-id="eminemayakkabi2" src="./resimler/eminemA/a2.png" alt="Ayakkabi 2">
+        <img class="ayakkabi trackable" data-id="eminemayakkabi3" src="./resimler/eminemA/a3.png" alt="Ayakkabi 3">
+        <img class="ayakkabi trackable" data-id="eminemayakkabi4" src="./resimler/eminemA/a4.png" alt="Ayakkabi 4">
+    </div>
+    
+    <div id="lightbox" class="lightbox" style="display: none;">
+        <span class="close">&times;</span>
+        <img class="lightbox-content" id="lightboxImg">
+    </div>
+    <script src="./eminem.js"></script>
+</body>
+</html>

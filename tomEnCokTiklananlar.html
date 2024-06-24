@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./resimler/zendayaP/favicon.ico" type="image/x-icon">
+    <title>STİLİST YZ</title>
+    <meta name="description" content="Stil danışmalığı yapan yapay zeka web sitesidir.">
+    <meta name="keywords" content="stil,yapay zeka,yz,AI,web,site,öneri,style,stylist,stilist">
+    <link rel="stylesheet" href="./en_cok_tiklanan.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <div class="navbar">
+        <label><input type="checkbox" id="pantolonCheck">Pantolon</label>
+        <label><input type="checkbox" id="gomlekCheck">Gömlek</label>
+        <label><input type="checkbox" id="kazakCheck">Kazak</label>
+        <label><input type="checkbox" id="ayakkabiCheck">Ayakkabı</label>
+    </div>
+    <div class="galeri">
+        <img class="gomlek trackable" data-id="tomgomlek1" src="./resimler/tom/tomG/g1.png" alt="Gomlek 1">
+        <img class="gomlek trackable" data-id="tomgomlek2" src="./resimler/tom/tomG/g2.png" alt="Gomlek 2">
+        <img class="gomlek trackable" data-id="tomgomlek3" src="./resimler/tom/tomG/g3.png" alt="Gomlek 3">
+        <img class="gomlek trackable" data-id="tomgomlek4" src="./resimler/tom/tomG/g4.png" alt="Gomlek 4">
+  
+        <img class="pantolon trackable" data-id="tompantolon1" src="./resimler/tom/tomP/p1.png" alt="Pantolon 1">
+        <img class="pantolon trackable" data-id="tompantolon2" src="./resimler/tom/tomP/p2.png" alt="Pantolon 2">
+        <img class="pantolon trackable" data-id="tompantolon3" src="./resimler/tom/tomP/p3.png" alt="Pantolon 3">
+        <img class="pantolon trackable" data-id="tompantolon4" src="./resimler/tom/tomP/p4.png" alt="Pantolon 4">
+  
+        <img class="kazak trackable" data-id="tomkazak1" src="./resimler/tom/tomK/k1.png" alt="Kazak 1">
+        <img class="kazak trackable" data-id="tomkazak2" src="./resimler/tom/tomK/k2.png" alt="Kazak 2">
+        <img class="kazak trackable" data-id="tomkazak3" src="./resimler/tom/tomK/k3.png" alt="Kazak 3">
+        <img class="kazak trackable" data-id="tomkazak4" src="./resimler/tom/tomK/k4.png" alt="Kazak 4">
+  
+        <img class="ayakkabi trackable" data-id="tomayakkabi1" src="./resimler/tom/tomA/a1.png" alt="Ayakkabi 1">
+        <img class="ayakkabi trackable" data-id="tomayakkabi2" src="./resimler/tom/tomA/a2.png" alt="Ayakkabi 2">
+        <img class="ayakkabi trackable" data-id="tomayakkabi3" src="./resimler/tom/tomA/a3.png" alt="Ayakkabi 3">
+        <img class="ayakkabi trackable" data-id="tomayakkabi4" src="./resimler/tom/tomA/a4.png" alt="Ayakkabi 4">
+    </div>
+    <div id="lightbox" class="lightbox" style="display: none;">
+        <span class="close">&times;</span>
+        <img class="lightbox-content" id="lightboxImg">
+    </div>
+    <script src="tom_en_cok.js"></script>
+</body>
+</html>

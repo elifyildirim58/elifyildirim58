@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./resimler/zendayaP/favicon.ico" type="image/x-icon">
+    <title>STİLİST YZ</title>
+    <meta name="description" content="Stil danışmalığı yapan yapay zeka web sitesidir.">
+    <meta name="keywords" content="stil,yapay zeka,yz,AI,web,site,öneri,style,stylist,stilist">
+    <link rel="stylesheet" href="en_cok_tiklanan.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <div class="navbar">
+        <label><input type="checkbox" id="pantolonCheck">Pantolon</label>
+        <label><input type="checkbox" id="etekCheck">Etek</label>
+        <label><input type="checkbox" id="gomlekCheck">Gömlek</label>
+        <label><input type="checkbox" id="kazakCheck">Kazak</label>
+        <label><input type="checkbox" id="ayakkabiCheck">Ayakkabı</label>
+        <label><input type="checkbox" id="cantaCheck">Çanta</label>
+    </div>
+    <div id="gomlekCheckGaleri" class="galeri">
+        <img class="gomlek trackable" data-id="1" data-category="zgomlek1" src="./resimler/zendayaG/g1.png" alt="Gomlek 1">
+        <img class="gomlek trackable" data-id="2" data-category="zgomlek2" src="./resimler/zendayaG/g2.png" alt="Gomlek 2">
+        <img class="gomlek trackable" data-id="3" data-category="zgomlek3" src="./resimler/zendayaG/g3.png" alt="Gomlek 3">
+        <img class="gomlek trackable" data-id="4" data-category="zgomlek4" src="./resimler/zendayaG/g4.png" alt="Gomlek 4">
+    </div>
+    <div id="ayakkabiCheckGaleri" class="galeri">
+        <img class="ayakkabi trackable" data-id="1" data-category="zayakkabi1" src="./resimler/zendayaA/a1.png" alt="Ayakkabi 1">
+        <img class="ayakkabi trackable" data-id="2" data-category="zayakkabi2" src="./resimler/zendayaA/a2.png" alt="Ayakkabi 2">
+        <img class="ayakkabi trackable" data-id="3" data-category="zayakkabi3" src="./resimler/zendayaA/a3.png" alt="Ayakkabi 3">
+        <img class="ayakkabi trackable" data-id="4" data-category="zayakkabi4" src="./resimler/zendayaA/a4.png" alt="Ayakkabi 4">
+    </div>
+    <div id="kazakCheckGaleri" class="galeri">
+        <img class="kazak trackable" data-id="1" data-category="zkazak1" src="./resimler/zendayaK/k1.png" alt="Kazak 1">
+        <img class="kazak trackable" data-id="2" data-category="zkazak2" src="./resimler/zendayaK/k2.png" alt="Kazak 2">
+        <img class="kazak trackable" data-id="3" data-category="zkazak3" src="./resimler/zendayaK/k3.png" alt="Kazak 3">
+        <img class="kazak trackable" data-id="4" data-category="zkazak4" src="./resimler/zendayaK/k4.png" alt="Kazak 4">
+    </div>
+    <div id="pantolonCheckGaleri" class="galeri">
+        <img class="pantolon trackable" data-id="1" data-category="zpantolon1" src="./resimler/zendayaP/p1.png" alt="Pantolon 1">
+        <img class="pantolon trackable" data-id="2" data-category="zpantolon2" src="./resimler/zendayaP/p2.png" alt="Pantolon 2">
+        <img class="pantolon trackable" data-id="3" data-category="zpantolon3" src="./resimler/zendayaP/p3.png" alt="Pantolon 3">
+        <img class="pantolon trackable" data-id="4" data-category="zpantolon4" src="./resimler/zendayaP/p4.png" alt="Pantolon 4">
+    </div>
+    <div id="cantaCheckGaleri" class="galeri">
+        <img class="canta trackable" data-id="1" data-category="zcanta1" src="./resimler/zendayaC/c1.png" alt="Canta 1">
+        <img class="canta trackable" data-id="2" data-category="zcanta2" src="./resimler/zendayaC/c2.png" alt="Canta 2">
+        <img class="canta trackable" data-id="3" data-category="zcanta3" src="./resimler/zendayaC/c3.png" alt="Canta 3">
+        <img class="canta trackable" data-id="4" data-category="zcanta4" src="./resimler/zendayaC/c4.png" alt="Canta 4">
+    </div>
+    <div id="etekCheckGaleri" class="galeri">
+        <img class="etek trackable" data-id="1" data-category="zetek1" src="./resimler/zendayaE/e1.png" alt="Etek 1">
+        <img class="etek trackable" data-id="2" data-category="zetek2" src="./resimler/zendayaE/e2.png" alt="Etek 2">
+        <img class="etek trackable" data-id="3" data-category="zetek3" src="./resimler/zendayaE/e3.png" alt="Etek 3">
+        <img class="etek trackable" data-id="4" data-category="zetek4" src="./resimler/zendayaE/e4.png" alt="Etek 4">
+    </div>
+       
+    <div id="lightbox" class="lightbox" style="display: none;">
+        <span class="close">&times;</span>
+        <img class="lightbox-content" id="lightboxImg">
+    </div>
+
+
+    <script src="zendaya_en_cok.js"></script>
+</body>
+</html>

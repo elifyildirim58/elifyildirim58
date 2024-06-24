@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./resimler/zendayaP/favicon.ico" type="image/x-icon">
+    <title>STİLİST YZ</title>
+    <meta name="description" content="Stil danışmalığı yapan yapay zeka web sitesidir.">
+    <meta name="keywords" content="stil,yapay zeka,yz,AI,web,site,öneri,style,stylist,stilist">
+    <link rel="stylesheet" href="./en_cok_tiklanan.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <div class="navbar">
+        <label><input type="checkbox" id="pantolonCheck">Pantolon</label>
+        <label><input type="checkbox" id="etekCheck">Etek</label>
+        <label><input type="checkbox" id="gomlekCheck">Gömlek</label>
+        <label><input type="checkbox" id="kazakCheck">Kazak</label>
+        <label><input type="checkbox" id="ayakkabiCheck">Ayakkabı</label>
+        <label><input type="checkbox" id="cantaCheck">Çanta</label>
+    </div>
+    <div  class="galeri">
+        <img class="gomlek trackable" data-id="bellagomlek1" src="./resimler/bellaG/g1.png" alt="Gomlek 1">
+        <img class="gomlek trackable" data-id="bellagomlek2" src="./resimler/bellaG/g2.png" alt="Gomlek 2">
+        <img class="gomlek trackable" data-id="bellagomlek3" src="./resimler/bellaG/g3.png" alt="Gomlek 3">
+        <img class="gomlek trackable" data-id="bellagomlek4" src="./resimler/bellaG/g4.png" alt="Gomlek 4">
+  
+   
+        <img class="ayakkabi trackable" data-id="bellaayakkabi1" src="./resimler/bellaA/a1.png" alt="Ayakkabi 1">
+        <img class="ayakkabi trackable" data-id="bellaayakkabi2" src="./resimler/bellaA/a2.png" alt="Ayakkabi 2">
+        <img class="ayakkabi trackable" data-id="bellaayakkabi3" src="./resimler/bellaA/a3.png" alt="Ayakkabi 3">
+        <img class="ayakkabi trackable" data-id="bellaayakkabi4" src="./resimler/bellaA/a4.png" alt="Ayakkabi 4">
+   
+   
+        <img class="kazak trackable" data-id="bellakazak1" src="./resimler/bellaK/k1.png" alt="Kazak 1">
+        <img class="kazak trackable" data-id="bellakazak2" src="./resimler/bellaK/k2.png" alt="Kazak 2">
+        <img class="kazak trackable" data-id="bellakazak3" src="./resimler/bellaK/k3.png" alt="Kazak 3">
+        <img class="kazak trackable" data-id="bellakazak4" src="./resimler/bellaK/k4.png" alt="Kazak 4">
+    
+   
+        <img class="pantolon trackable" data-id="bellapantolon1" src="./resimler/bellaP/p1.png" alt="Pantolon 1">
+        <img class="pantolon trackable" data-id="bellapantolon2" src="./resimler/bellaP/p2.png" alt="Pantolon 2">
+        <img class="pantolon trackable" data-id="bellapantolon3" src="./resimler/bellaP/p3.png" alt="Pantolon 3">
+        <img class="pantolon trackable" data-id="bellapantolon4" src="./resimler/bellaP/p4.png" alt="Pantolon 4">
+   
+        <img class="canta trackable" data-id="bellacanta1" src="./resimler/bellaC/c1.png" alt="Canta 1">
+        <img class="canta trackable" data-id="bellacanta2" src="./resimler/bellaC/c2.png" alt="Canta 2">
+        <img class="canta trackable" data-id="bellacanta3" src="./resimler/bellaC/c3.png" alt="Canta 3">
+        <img class="canta trackable" data-id="bellacanta4" src="./resimler/bellaC/c4.png" alt="Canta 4">
+  
+            <img class="etek trackable" data-id="belaetek1" src="./resimler/bellaE/e1.png" alt="Etek 1">
+            <img class="etek trackable" data-id="belaetek2" src="./resimler/bellaE/e2.png" alt="Etek 2">
+            <img class="etek trackable" data-id="belaetek3" src="./resimler/bellaE/e3.png" alt="Etek 3">
+            <img class="etek trackable" data-id="belaetek4" src="./resimler/bellaE/e4.png" alt="Etek 4">
+        </div>
+       
+
+        <div id="lightbox" class="lightbox" style="display: none;">
+            <span class="close">&times;</span>
+            <img class="lightbox-content" id="lightboxImg">
+        </div>
+    <script src="./bella_en_cok.js"></script>
+</body>
+</html>

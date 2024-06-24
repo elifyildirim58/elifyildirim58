@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./resimler/zendayaP/favicon.ico" type="image/x-icon">
+    <title>STİLİST YZ</title>
+    <meta name="description" content="Stil danışmalığı yapan yapay zeka web sitesidir.">
+    <meta name="keywords" content="stil,yapay zeka,yz,AI,web,site,öneri,style,stylist,stilist">
+    <link rel="stylesheet" href="./guncelmoda.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <div class="navbar">
+        <label><input type="checkbox" id="pantolonCheck">Pantolon</label>
+        <label><input type="checkbox" id="gomlekCheck">Gömlek</label>
+        <label><input type="checkbox" id="kazakCheck">Kazak</label>
+        <label><input type="checkbox" id="ayakkabiCheck">Ayakkabı</label>
+    </div>
+    <div id="gomlekCheckGaleri" class="galeri">
+        <img class="gomlek trackable" data-id="songkanggomlek1" src="./resimler/songG/g1.png" alt="Gomlek 1">
+        <img class="gomlek trackable" data-id="songkanggomlek2" src="./resimler/songG/g2.png" alt="Gomlek 2">
+        <img class="gomlek trackable" data-id="songkanggomlek3" src="./resimler/songG/g3.png" alt="Gomlek 3">
+        <img class="gomlek trackable" data-id="4" src="./resimler/songG/g4.png" alt="Gomlek 4">
+    </div>
+    <div id="pantolonCheckGaleri" class="galeri">
+        <img class="pantolon trackable" data-id="songkangpantolon1" src="./resimler/songP/p1.png" alt="Pantolon 1">
+        <img class="pantolon trackable" data-id="songkangpantolon2" src="./resimler/songP/p2.png" alt="Pantolon 2">
+        <img class="pantolon trackable" data-id="songkangpantolon3" src="./resimler/songP/p3.png" alt="Pantolon 3">
+        <img class="pantolon trackable" data-id="songkangpantolon4" src="./resimler/songP/p4.png" alt="Pantolon 4">
+    </div>
+    <div id="kazakCheckGaleri" class="galeri">
+        <img class="kazak trackable" data-id="songkangkazak1" src="./resimler/songK/k1.png" alt="Kazak 1">
+        <img class="kazak trackable" data-id="ongkangkazak2" src="./resimler/songK/k2.png" alt="Kazak 2">
+        <img class="kazak trackable" data-id="ongkangkazak3" src="./resimler/songK/k3.png" alt="Kazak 3">
+        <img class="kazak trackable" data-id="ongkangkazak4" src="./resimler/songK/k4.png" alt="Kazak 4">
+    </div>
+    <div id="ayakkabiCheckGaleri" class="galeri">
+        <img class="ayakkabi trackable" data-id="songkanayakkabi1" src="./resimler/songA/a1.png" alt="Ayakkabi 1">
+        <img class="ayakkabi trackable" data-id="songkanayakkabi2" src="./resimler/songA/a2.png" alt="Ayakkabi 2">
+        <img class="ayakkabi trackable" data-id="songkanayakkabi3" src="./resimler/songA/a3.png" alt="Ayakkabi 3">
+        <img class="ayakkabi trackable" data-id="songkanayakkabi4" src="./resimler/songA/a4.png"alt="Ayakkabi 4">
+    </div>
+ 
+    <div id="lightbox" class="lightbox" style="display: none;">
+        <span class="close">&times;</span>
+        <img class="lightbox-content" id="lightboxImg">
+    </div>
+
+    <script src="./songkang.js"></script>
+</body>
+</html>

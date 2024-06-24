@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="tr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="./resimler/zendayaP/favicon.ico" type="image/x-icon">
+        <title>STİLİST YZ</title>
+        <meta name="description" content="Stil danışmalığı yapan yapay zeka web sitesidir.">
+        <meta name="keywords" content="stil,yapay zeka,yz,AI,web,site,öneri,style,stylist,stilist">
+        <link rel="stylesheet" href="kayit.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+        <script src="kayit.js"></script>
+    </head>
+<body>
+  <div class="container">
+    
+    <h2>Kayıt Ol</h2>
+    <form id="kayitFormu" action="./kayit.php" method="post" autocomplete="on">
+      <table>
+        <div class="form-group">
+        <tr><td>İsim: </td><td><input type="text" id="ad" name="ad" size="25" maxlength="50" required autofocus placeholder="Ad giriniz.."></td></tr>
+        </div>
+        <div class="form-group">
+        <tr><td>Soy İsim: </td><td><input type="text" id="soyad" name="soyad" size="25" maxlength="50" required placeholder="Soyad giriniz.."></td></tr>
+        </div>
+        <div class="form-group">
+          <tr><td>E-mail: </td><td><input type="email" id="mail" name="mail" size="25" maxlength="50" required placeholder="E-mail giriniz.."></td></tr>
+          </div>
+        <div class="form-group">
+        <tr><td>Şifre: </td><td><input type="password" id="sifre" name="sifre" size="25" maxlength="50" required placeholder="Şifre giriniz.."></td></tr>
+        </div>
+        <tr>
+        <td><button type="submit" id="kayit">Kayıt Ol</button></td></tr>
+    </table>
+    </form>
+  </div>
+  <script src="kayit.js">
+</script>
+</body>
+</html>

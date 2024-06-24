@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./resimler/zendayaP/favicon.ico" type="image/x-icon">
+    <title>STİLİST YZ</title>
+    <meta name="description" content="Stil danışmalığı yapan yapay zeka web sitesidir.">
+    <meta name="keywords" content="stil,yapay zeka,yz,AI,web,site,öneri,style,stylist,stilist">
+    <link rel="stylesheet" href="./en_cok_tiklanan.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <div class="navbar">
+        <label><input type="checkbox" id="pantolonCheck">Pantolon</label>
+        <label><input type="checkbox" id="gomlekCheck">Gömlek</label>
+        <label><input type="checkbox" id="kazakCheck">Kazak</label>
+        <label><input type="checkbox" id="ayakkabiCheck">Ayakkabı</label>
+    </div>
+
+    <div class="galeri">
+        <img class="pantolon trackable" data-id="guncelmodapantolon1" src="./resimler/güncelmodaman/p1.png" alt="Pantolon 1">
+        <img class="pantolon trackable" data-id="guncelmodapantolon2" src="./resimler/güncelmodaman/p2.png" alt="Pantolon 2">
+        <img class="pantolon trackable" data-id="guncelmodapantolon3" src="./resimler/güncelmodaman/p3.png"alt="Pantolon 3">
+        <img class="pantolon trackable" data-id="guncelmodapantolon4" src="./resimler/güncelmodaman/p4.png" alt="Pantolon 4">
+    
+        <img class="gomlek trackable" data-id="guncelmodagomlek1" src="./resimler/güncelmodaman/g1.png" alt="Gomlek 1">
+        <img class="gomlek trackable" data-id="guncelmodagomlek2" src="./resimler/güncelmodaman/g2.png" alt="Gomlek 2">
+        <img class="gomlek trackable" data-id="guncelmodagomlek3" src="./resimler/güncelmodaman/g3.png" alt="Gomlek 3">
+        <img class="gomlek trackable" data-id="guncelmodagomlek4" src="./resimler/güncelmodaman/g4.png" alt="Gomlek 4">
+    
+        <img class="kazak trackable" data-id="guncelmodakazak1" src="./resimler/güncelmodaman/k1.png" alt="Kazak 1">
+        <img class="kazak trackable" data-id="guncelmodakazak2" src="./resimler/güncelmodaman/k2.png" alt="Kazak 2">
+        <img class="kazak trackable" data-id="guncelmodakazak3" src="./resimler/güncelmodaman/k3.png" alt="Kazak 3">
+        <img class="kazak trackable" data-id="guncelmodakazak4" src="./resimler/güncelmodaman/k4.png" alt="Kazak 4">
+      
+        <img class="ayakkabi trackable" data-id="guncelmodaayakkabi1" src="./resimler/güncelmodaman/a1.png" alt="Ayakkabi 1">
+        <img class="ayakkabi trackable" data-id="guncelmodaayakkabi2" src="./resimler/güncelmodaman/a2.png"  alt="Ayakkabi 2">
+        <img class="ayakkabi trackable" data-id="guncelmodaayakkabi3" src="./resimler/güncelmodaman/a3.png"  alt="Ayakkabi 3">
+        <img class="ayakkabi trackable" data-id="guncelmodaayakkabi4" src="./resimler/güncelmodaman/a4.png"  alt="Ayakkabi 4">
+       </div>
+    
+    <div id="lightbox" class="lightbox" style="display: none;">
+        <span class="close">&times;</span>
+        <img class="lightbox-content" id="lightboxImg">
+    </div>
+   
+
+    <script src="mguncelmoda_en_cok.js"></script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./resimler/zendayaP/favicon.ico" type="image/x-icon">
+    <title>STİLİST YZ</title>
+    <meta name="description" content="Stil danışmalığı yapan yapay zeka web sitesidir.">
+    <meta name="keywords" content="stil,yapay zeka,yz,AI,web,site,öneri,style,stylist,stilist">
+    <link rel="stylesheet" href="./en_cok_tiklanan.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <div class="navbar">
+        <label><input type="checkbox" id="pantolonCheck">Pantolon</label>
+        <label><input type="checkbox" id="etekCheck">Etek</label>
+        <label><input type="checkbox" id="gomlekCheck">Gömlek</label>
+        <label><input type="checkbox" id="kazakCheck">Kazak</label>
+        <label><input type="checkbox" id="ayakkabiCheck">Ayakkabı</label>
+        <label><input type="checkbox" id="cantaCheck">Çanta</label>
+    </div>
+    <div  class="galeri">
+        <img class="gomlek trackable" data-id="blakegomlek1" src="./resimler/blakeG/g1.png" alt="Gomlek 1">
+        <img class="gomlek trackable" data-id="blakegomlek2" src="./resimler/blakeG/g2.png" alt="Gomlek 2">
+        <img class="gomlek trackable" data-id="blakegomlek3" src="./resimler/blakeG/g3.png" alt="Gomlek 3">
+        <img class="gomlek trackable" data-id="blakegomlek4" src="./resimler/blakeG/g4.png" alt="Gomlek 4">
+   
+        <img class="ayakkabi trackable" data-id="blakeayakkabi1" src="./resimler/blakeA/a1.png" alt="Ayakkabi 1">
+        <img class="ayakkabi trackable" data-id="blakeayakkabi2" src="./resimler/blakeA/a2.png" alt="Ayakkabi 2">
+        <img class="ayakkabi trackable" data-id="blakeayakkabi3" src="./resimler/blakeA/a3.png" alt="Ayakkabi 3">
+        <img class="ayakkabi trackable" data-id="blakeayakkabi4" src="./resimler/blakeA/a4.png"alt="Ayakkabi 4">
+   
+        <img class="kazak trackable" data-id="blakekazak1" src="./resimler/blakeK/k1.png" alt="Kazak 1">
+        <img class="kazak trackable" data-id="blakekazak2" src="./resimler/blakeK/k2.png"alt="Kazak 2">
+        <img class="kazak trackable" data-id="blakekazak3" src="./resimler/blakeK/k3.png" alt="Kazak 3">
+        <img class="kazak trackable" data-id="blakekazak4" src="./resimler/blakeK/k4.png" alt="Kazak 4">
+   
+        <img class="pantolon trackable" data-id="blakepantolon1" src="./resimler/blakeP/p1.png" alt="Pantolon 1">
+        <img class="pantolon trackable" data-id="blakepantolon2" src="./resimler/blakeP/p2.png" alt="Pantolon 2">
+        <img class="pantolon trackable" data-id="blakepantolon3" src="./resimler/blakeP/p3.png" alt="Pantolon 3">
+        <img class="pantolon trackable" data-id="blakepantolon4" src="./resimler/blakeP/p4.png" alt="Pantolon 4">
+ 
+        <img class="canta trackable" data-id="blakecanta1" src="./resimler/blakeC/c1.png" alt="Canta 1">
+        <img class="canta trackable" data-id="blakecanta2" src="./resimler/blakeC/c2.png" alt="Canta 2">
+        <img class="canta trackable" data-id="blakecanta3" src="./resimler/blakeC/c3.png" alt="Canta 3">
+        <img class="canta trackable" data-id="blakecanta4" src="./resimler/blakeC/c4.png" alt="Canta 4">
+  
+            <img class="etek trackable" data-id="blakeetek1" src="./resimler/blakeE/e1.png" alt="Etek 1">
+            <img class="etek trackable" data-id="blakeetek2" src="./resimler/blakeE/e2.png" alt="Etek 2">
+            <img class="etek trackable" data-id="blakeetek3" src="./resimler/blakeE/e3.png" alt="Etek 3">
+            <img class="etek trackable" data-id="blakeetek4" src="./resimler/blakeE/e4.png" alt="Etek 4">
+        </div>
+         
+        <div id="lightbox" class="lightbox" style="display: none;">
+            <span class="close">&times;</span>
+            <img class="lightbox-content" id="lightboxImg">
+        </div>
+    <script src="./blake_en_cok.js"></script>
+</body>
+</html>
